@@ -1,0 +1,59 @@
+name: modychat
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.15.0
+  firebase_auth: ^6.1.0
+  cloud_firestore: ^6.10.0
+  firebase_storage: ^13.0.0
+  image_picker: ^1.2.2
+  file_picker: ^8.1.7
+  audioplayers: ^6.1.0
+  record: 5.1.2
+  record_platform_interface: 1.2.0
+  path: ^1.9.0
+  http: ^1.2.0
+  video_player: ^2.9.2
+  supabase_flutter: ^2.17.2
+  shared_preferences: ^2.5.2
+  provider: ^6.1.2
+  url_launcher: ^6.3.1
+  flutter_local_notifications: ^19.0.0
+  app_badge_plus: ^1.1.0
+  path_provider: ^2.1.4
+  agora_rtc_engine: ^6.6.4
+  permission_handler: ^13.0.2
+
+dependency_overrides:
+  # permission_handler_android 14.x has a broken build.gradle.kts (unresolved
+  # `kotlin { compilerOptions }`) and requires compileSdk 37, which AGP 8.9.1
+  # cannot build. 13.0.1 is the last version that compiles with this toolchain.
+  permission_handler_android: 13.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/logo/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo/modychat_logo.png
+    - assets/ringtones/

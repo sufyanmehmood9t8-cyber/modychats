@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "38475036681",
+    "project_id": "chating-app-21973",
+    "storage_bucket": "chating-app-21973.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38475036681:android:79f4bd90dbffcd6c07e0d8",
+        "android_client_info": {
+          "package_name": "com.example.modychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38475036681-0brro2ncjn4j4e4n6bevf12u0kih7mmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAatXzi5uH6tdgvnTA35P7JTpGo7nKH9gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38475036681-0brro2ncjn4j4e4n6bevf12u0kih7mmq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
